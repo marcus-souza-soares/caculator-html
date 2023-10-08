@@ -1,0 +1,89 @@
+@media screen and (max-width: 768px) {
+  table {
+    font-size: 40px;
+  }
+  
+  button {
+    height: 5em;
+    width: 5em;
+  }
+
+  .like {
+    height: 11em;
+  }
+
+  thead div {
+    height: 7rem;
+  }
+}
+
+body {
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'VT323', monospace;
+}
+
+thead div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 5rem;
+  text-align: right;
+  font-size: 3em;
+  border-radius: 15px;
+  border: 3px #7c7a7a81 solid;
+  background-color: #7c7a7a50;
+  margin: 0 10px;
+  padding-right: 10px;
+}
+
+table {
+  font-size: x-large;
+  padding: 15px;
+  color: #ffffff;
+  background-color: #1A1A1A;
+  margin: 0 auto;
+  border-radius: 1em;
+}
+
+th, td {
+  border: none;
+}
+
+td {
+  padding: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  filter:brightness(0.8)
+}
+
+button {
+  color: #FAFAFA;
+  height: 3em;
+  width: 3em;
+  background-color: #7c7a7a81;
+  border: none;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.clean {
+  background-color: #fa4242d5;
+}
+
+.like {
+  height: 5.5em;
+  background-color: #f89f40e3;
+}
+
+.zero {
+  width: 100%
+}
+
